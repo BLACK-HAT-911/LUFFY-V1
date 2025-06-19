@@ -1,7 +1,7 @@
 {
   "name": "luffy-v1-bot",
   "version": "1.0.0",
-  "description": "LUFFY V1 - WhatsApp Bot powered by Baileys and Render",
+  "description": "LUFFY V1 - WhatsApp Bot powered by LUFFY-V1",
   "main": "index.js",
   "type": "module",
   "scripts": {

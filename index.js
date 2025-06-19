@@ -1,11 +1,5 @@
-// index.js — LUFFY V1 MAIN BOT FILE
-
-import makeWASocket, {
-  useSingleFileAuthState,
-  fetchLatestBaileysVersion,
-  DisconnectReason,
-  makeInMemoryStore
-} from '@whiskeysockets/baileys';
+import baileys from '@whiskeysockets/baileys';
+const { makeWASocket, useSingleFileAuthState, fetchLatestBaileysVersion, DisconnectReason, makeInMemoryStore } = baileys;
 
 import P from 'pino';
 import dotenv from 'dotenv';
