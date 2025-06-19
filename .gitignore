@@ -1,0 +1,39 @@
+# ========================
+# 💡 LUFFY V1 - .gitignore
+# ========================
+
+# Node modules
+node_modules/
+
+# Baileys session files
+*.json
+!package.json
+!config.json
+
+# Auth folder or files (WhatsApp session)
+luffy_auth/
+*.creds
+*.auth
+
+# Environment variables
+.env
+
+# Logs & debug
+logs/
+*.log
+
+# Temporary files
+.DS_Store
+*.tmp
+*.bak
+
+# Render/Vercel build
+build/
+dist/
+.cache/
+
+# VSCode settings (optional)
+.vscode/
+
+# System files
+Thumbs.db

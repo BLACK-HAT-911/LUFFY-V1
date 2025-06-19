@@ -1,0 +1,30 @@
+{
+  "name": "luffy-v1",
+  "version": "1.0.0",
+  "description": "LUFFY V1 - WhatsApp Bot Powered by Baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "luffy",
+    "baileys",
+    "render",
+    "whiskeysockets"
+  ],
+  "author": "BLACK-HAT-911",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "pino": "^8.18.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

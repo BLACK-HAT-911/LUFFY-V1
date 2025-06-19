@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: luffy-v1-bot
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: AUTH_FILE
+        value: luffy_auth
+      - key: PORT
+        value: 3000
+      - key: REPO
+        value: https://github.com/BLACK-HAT-911/LUFFY-V1
+      - key: BANNER_IMAGE
+        value: https://files.catbox.moe/kxlcw6.jpg
+      - key: WHATSAPP_CHANNEL
+        value: https://whatsapp.com/channel/0029VbAxoHNF6sn7hhz2Ss24
+      - key: TELEGRAM_CHANNEL
+        value: https://t.me/lpg1_tech
+      - key: API_KEY_NEXORACLE
+        value: 7902cbef76b269e176
+      - key: JWT_SECRET
+        value: f9b1b3a7c98e4e1dbe14e5c9d73b12ae

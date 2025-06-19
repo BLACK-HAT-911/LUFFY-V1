@@ -1,0 +1,14 @@
+{
+  "botName": "LUFFY V1",
+  "ownerName": "BLACK-HAT-911",
+  "ownerNumber": "+254780931677",
+  "ownerJid": "254780931677@s.whatsapp.net",
+  "repo": "https://github.com/BLACK-HAT-911/LUFFY-V1",
+  "botBanner": "https://files.catbox.moe/kxlcw6.jpg",
+  "whatsappChannel": "https://whatsapp.com/channel/0029VbAxoHNF6sn7hhz2Ss24",
+  "telegramChannel": "https://t.me/lpg1_tech",
+  "prefixes": [".", "/"],
+  "defaultReact": "❤️",
+  "defaultMode": "public",
+  "noPrefixCommands": ["luffy", "start", "bot", "monkey"]
+}
